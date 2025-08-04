@@ -4,7 +4,7 @@ import Cookies from "js-cookie";
 
 const jwt = Cookies.get("@user_jwt");
 
-const BASE_URL = "http://localhost:3005";
+const BASE_URL = "https://boardgame-api.onrender.com:3005";
 
 export const getAllGames = async () => {
   const response = await axios.get(`${BASE_URL}/games`, {
