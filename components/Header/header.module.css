@@ -1,0 +1,18 @@
+.main {
+  background-color: rgb(196, 113, 54);
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.logo {
+  font-size: 1.6rem;
+}
+
+.main nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}

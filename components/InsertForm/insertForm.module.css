@@ -1,0 +1,47 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 500px;
+  margin: auto;
+  padding-top: 2rem;
+}
+
+.main input {
+  padding: 0.5rem;
+  border-radius: 0.6rem;
+}
+
+.main button {
+  padding: 0.5rem;
+  border-radius: 0.6rem;
+}
+
+.error {
+  color: red;
+}
+
+.banner {
+  position: absolute;
+  top: 0px;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+}
+
+.moveIn {
+  animation-name: move-in;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+@keyframes move-in {
+  0% {
+    top: -16px;
+  }
+
+  100% {
+    top: 0px;
+  }
+}
